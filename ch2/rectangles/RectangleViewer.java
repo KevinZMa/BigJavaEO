@@ -1,19 +1,17 @@
 import javax.swing.*;
 
-public class RectangleViewer
-{
-   public static void main(String[] args)
-   {
-      JFrame frame = new JFrame();
+public class RectangleViewer {
 
-      frame.setSize(300, 400);
-      frame.setTitle("Two rectangles");
-      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    public static void main(String[] args) {
+        JFrame frame = new JFrame();
 
-      RectangleComponent component = new RectangleComponent();
-      frame.add(component);
+        frame.setSize(300, 400);
+        frame.setTitle("Two rectangles");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-      frame.setVisible(true);
-   }
+        RectangleComponent component = new RectangleComponent();
+        frame.add(component);
+
+        frame.setVisible(true);
+    }
 }
-

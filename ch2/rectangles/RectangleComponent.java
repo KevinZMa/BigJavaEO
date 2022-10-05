@@ -6,22 +6,20 @@ import javax.swing.JComponent;
 /*
    A component that draws two rectangles.
 */
-public class RectangleComponent extends JComponent
-{  
-   public void paintComponent(Graphics g)
-   {  
-      // Recover Graphics2D
-      Graphics2D g2 = (Graphics2D) g;
+public class RectangleComponent extends JComponent {
 
-      // Construct a rectangle and draw it
-      Rectangle box = new Rectangle(5, 10, 20, 30);
-      g2.draw(box);
+    public void paintComponent(Graphics g) {
+        // Recover Graphics2D
+        Graphics2D g2 = (Graphics2D) g;
 
-      // Move rectangle 15 units to the right and 25 units down
-      box.translate(15, 25);
+        // Construct a rectangle and draw it
+        Rectangle box = new Rectangle(5, 10, 20, 30);
+        g2.draw(box);
 
-      // Draw moved rectangle
-      g2.draw(box);
-   }
+        // Move rectangle 15 units to the right and 25 units down
+        box.translate(15, 25);
+
+        // Draw moved rectangle
+        g2.draw(box);
+    }
 }
-

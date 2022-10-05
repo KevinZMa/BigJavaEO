@@ -1,21 +1,20 @@
-import java.awt.Rectangle; 
+import java.awt.Rectangle;
 
-public class MoveTester
-{
-   public static void main(String[] args)
-   {
-      Rectangle box = new Rectangle(5, 10, 20, 30);
+public class MoveTester {
 
-      // Move the rectangle
-      box.translate(15, 25);
+    public static void main(String[] args) {
+        Rectangle box = new Rectangle(5, 10, 20, 30);
 
-      // Print information about the moved rectangle 
-      System.out.print("x: "); 
-      System.out.println(box.getX());
-      System.out.println("Expected: 20"); 
+        // Move the rectangle
+        box.translate(15, 25);
 
-      System.out.print("y: "); 
-      System.out.println(box.getY());
-      System.out.println("Expected: 35");   
-   }
+        // Print information about the moved rectangle
+        System.out.print("x: ");
+        System.out.println(box.getX());
+        System.out.println("Expected: 20");
+
+        System.out.print("y: ");
+        System.out.println(box.getY());
+        System.out.println("Expected: 35");
+    }
 }
