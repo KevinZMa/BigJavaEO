@@ -25,3 +25,6 @@ replay_pid*
 
 # OS
 .DS_Store
+
+# other
+apidoc/
