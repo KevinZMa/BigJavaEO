@@ -2,7 +2,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
- * Your task is to write a program that prints:
+ * P2.9 Your task is to write a program that prints:
 
  * The date and weekday that is 100 days from today.
  * The weekday of someone's birthday.

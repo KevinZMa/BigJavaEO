@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 /**
- * Your task is to write a program that prints
+ * P2.10 Your task is to write a program that prints:
 
  * The weekday of "Pi day", that is, March 14, of the current year.
  * The date and weekday of "Programmer's day" in the current year; that is, the 256th day of the year. (The number 256, or 28, is useful for some programming tasks.)
