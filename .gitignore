@@ -26,5 +26,9 @@ replay_pid*
 # OS
 .DS_Store
 
+# IDE
+.idea/
+.vscode/
+
 # other
 apidoc/
