@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
  * The weekday of someone's birthday.
  * The date that is 10,000 days from someone's birthday.
  */
-public class CalendarExtra {
+public class CalendarPrinter {
 
     public static final String[] daysOfWeek = {
         "Sunday",
@@ -25,21 +25,21 @@ public class CalendarExtra {
         cal.add(Calendar.DAY_OF_YEAR, 100);
         System.out.printf(
             "100 days from today is %s (%s)%n",
-            CalendarExtra.formatDate(cal),
-            CalendarExtra.dayOfWeek(cal)
+            formatDate(cal),
+            dayOfWeek(cal)
         );
 
         GregorianCalendar bday = new GregorianCalendar(1956, 1, 31);
         System.out.printf(
             "The weekday of Guido van Rossum's birthday is %s%n",
-            CalendarExtra.dayOfWeek(bday)
+            dayOfWeek(bday)
         );
 
         bday.add(Calendar.DAY_OF_YEAR, 10_000);
         System.out.printf(
             "10,000 days from Guido van Rossum's birthday is %s (%s)%n",
-            CalendarExtra.formatDate(bday),
-            CalendarExtra.dayOfWeek(bday)
+            formatDate(bday),
+            dayOfWeek(bday)
         );
     }
 

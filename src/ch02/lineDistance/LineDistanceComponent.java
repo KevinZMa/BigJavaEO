@@ -1,11 +1,10 @@
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Rectangle;
 import java.awt.geom.*;
 import javax.swing.JComponent;
 
 /**
- * Repeat Testing P2.11, but now write a graphical application that shows the
+ * P2.12 Repeat Testing P2.11, but now write a graphical application that shows the
  * line and the points. Draw each point as a tiny circle.
  */
 public class LineDistanceComponent extends JComponent {

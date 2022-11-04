@@ -7,7 +7,7 @@ import java.time.LocalDate;
  * The date and weekday of "Programmer's day" in the current year; that is, the 256th day of the year. (The number 256, or 28, is useful for some programming tasks.)
  * The date and weekday of the date that is 10,000 days earlier than today.
  */
-public class LocalDateExtra {
+public class LocalDatePrinter {
 
     public static void main(String[] args) {
         LocalDate piDay = LocalDate.of(2022, 3, 14);

@@ -5,7 +5,7 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import javax.swing.JComponent;
 
-public class DrawingComponent extends JComponent {
+public class TargetComponent extends JComponent {
 
     public void paintComponent(Graphics g) {
         // Recover Graphics2D

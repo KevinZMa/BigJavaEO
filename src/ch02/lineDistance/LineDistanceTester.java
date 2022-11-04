@@ -2,7 +2,12 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 
 /**
- * P2.11 Write a program LineDistanceTester that constructs a line joining the points (100, 100) and (200, 200), then constructs points (100, 200), (150, 150), and (250, 50). Print the distance from the line to each of the three points, using the ptSegDist method of the Line2D class. Also print the expected values. (Draw a sketch on graph paper to find what values you expect.)
+ * P2.11 Write a program LineDistanceTester that constructs a line joining the
+ * points (100, 100) and (200, 200), then constructs points (100, 200), (150,
+ * 150), and (250, 50). Print the distance from the line to each of the three
+ * points, using the ptSegDist method of the Line2D class. Also print the
+ * expected values. (Draw a sketch on graph paper to find what values you
+ * expect.)
  */
 public class LineDistanceTester {
 

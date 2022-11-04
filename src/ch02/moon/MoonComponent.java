@@ -5,7 +5,10 @@ import java.awt.Rectangle;
 import java.awt.geom.Ellipse2D;
 import javax.swing.JComponent;
 
-public class DrawingComponent extends JComponent {
+/**
+ * 2.10 SC 4: Draws a moon in the night sky.
+ */
+public class MoonComponent extends JComponent {
 
     public void paintComponent(Graphics g) {
         // Recover Graphics2D

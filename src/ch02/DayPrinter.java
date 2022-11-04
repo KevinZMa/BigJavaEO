@@ -1,13 +1,14 @@
 /**
- * P2.8 Using the Day class of Worked Example 2.1, write a program that generates a Day object representing February 28 of this year, and three more such objects that represent February 28 of the next three years. Advance each object by one day, and print each object. Also print the expected values.
+ * P2.8 Using the Day class of Worked Example 2.1, write a program that
+ * generates a Day object representing February 28 of this year, and three more
+ * such objects that represent February 28 of the next three years. Advance each
+ * object by one day, and print each object. Also print the expected values.
  *
  * This program assumes the current year is 2022.
  */
-public class DayExtra {
+public class DayPrinter {
 
     public static void main(String[] main) {
-        DayExtra extra = new DayExtra();
-
         String[] expectedResults = {
             "2022-02-28",
             "2022-03-01",
@@ -24,13 +25,13 @@ public class DayExtra {
             System.out.println(day);
             System.out.println("Expected: " + expectedResults[i * 2]);
 
-            day = extra.nextYear(day.addDays(1));
+            day = nextYear(day.addDays(1));
             System.out.println(day);
             System.out.println("Expected: " + expectedResults[i * 2 + 1]);
         }
     }
 
-    public Day nextYear(Day day) {
+    public static Day nextYear(Day day) {
         return new Day(day.getYear() + 1, day.getMonth(), day.getDate());
     }
 }

@@ -9,12 +9,16 @@ public class StringExtra {
     }
 
     public void reverseInput() {
-        Scanner console = new Scanner(System.in);
-        System.out.print("Input: ");
-        String input = console.nextLine();
-        StringBuilder builder = new StringBuilder();
-        builder.append(input);
-        builder.reverse();
-        System.out.println(builder);
+        Scanner in = new Scanner(System.in);
+        try {
+            System.out.print("Input: ");
+            String input = in.nextLine();
+            StringBuilder builder = new StringBuilder();
+            builder.append(input);
+            builder.reverse();
+            System.out.println(builder);
+        } finally {
+            in.close();
+        }
     }
 }
