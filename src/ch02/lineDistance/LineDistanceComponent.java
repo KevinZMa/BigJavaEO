@@ -1,7 +1,7 @@
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.geom.*;
 import java.awt.Rectangle;
+import java.awt.geom.*;
 import javax.swing.JComponent;
 
 /**
@@ -9,15 +9,12 @@ import javax.swing.JComponent;
  * line and the points. Draw each point as a tiny circle.
  */
 public class LineDistanceComponent extends JComponent {
+
     public void paintComponent(Graphics g) {
         // Recover Graphics2D
         Graphics2D g2 = (Graphics2D) g;
 
-        float[][] testPoints = {
-                { 100, 200 },
-                { 150, 150 },
-                { 250, 50 }
-        };
+        float[][] testPoints = { { 100, 200 }, { 150, 150 }, { 250, 50 } };
 
         Line2D line = new Line2D.Double(100, 100, 200, 200);
         g2.draw(line);
@@ -39,7 +36,7 @@ public class LineDistanceComponent extends JComponent {
 
     /**
      * Round a double to two decimal places.
-     * 
+     *
      * @param d The double to round.
      * @return The rounded result.
      */
