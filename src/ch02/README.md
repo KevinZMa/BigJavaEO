@@ -50,7 +50,7 @@ Write a program `LineDistanceTester` that constructs a line joining the points (
 
 Repeat P2.11, but now write a graphical application that shows the line and the points. Draw each point as a tiny circle. Use the `drawString` method to draw each distance next to the point.
 
-### P2.15 - [`trafficLight`](./trafficLight/)
+### P2.15 - [`trafficLight/`](./trafficLight/)
 
 Write a graphical program that draws a traffic light.
 
