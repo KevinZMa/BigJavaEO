@@ -6,7 +6,7 @@ Draw a moon in the night sky.
 
 ![image of the moon](./moon/moon.png)
 
-### IR 2.4 - [`target/`](./target/)
+### IR 2.3.4 - [`target/`](./target/)
 
 Produce this drawing:
 
