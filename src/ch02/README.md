@@ -63,7 +63,3 @@ A program that tests the `reverse` method from a string provided by StdIn.
 ### [`house/`](./house/)
 
 A program that displays two houses.
-
-### [`face/`](./face/)
-
-Draws a face.
