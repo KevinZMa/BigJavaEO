@@ -4,9 +4,7 @@ Exercises from [Big Java: Early Objects](https://www.wiley.com/en-us/Big+Java%3A
 
 ## Abbreviations:
 
-**SC:** Self Check
-
-**IR:** Interactive Review
+**IR:** Interactive Review and Practice
 
 **R:** Review Exercise
 

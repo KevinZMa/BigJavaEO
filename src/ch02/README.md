@@ -1,6 +1,6 @@
 # Chapter 2: Using Objects
 
-### 2.10 SC 4 - [`moon/`](./moon/)
+### 2.10 Self Check 4 - [`moon/`](./moon/)
 
 Draw a moon in the night sky.
 
