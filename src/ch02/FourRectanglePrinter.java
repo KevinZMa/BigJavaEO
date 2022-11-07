@@ -1,3 +1,5 @@
+package ch02;
+
 import java.awt.Rectangle;
 
 /**

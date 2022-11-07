@@ -1,3 +1,5 @@
+package ch02.house;
+
 public class House {
 
     public boolean drawn;

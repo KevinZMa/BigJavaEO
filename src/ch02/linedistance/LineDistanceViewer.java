@@ -1,3 +1,5 @@
+package ch02.linedistance;
+
 import javax.swing.*;
 
 public class LineDistanceViewer {

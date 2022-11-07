@@ -1,3 +1,5 @@
+package ch02;
+
 import java.lang.StringBuilder;
 import java.util.Scanner;
 

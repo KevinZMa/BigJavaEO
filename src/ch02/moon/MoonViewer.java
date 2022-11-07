@@ -1,3 +1,5 @@
+package ch02.moon;
+
 import javax.swing.*;
 
 public class MoonViewer {

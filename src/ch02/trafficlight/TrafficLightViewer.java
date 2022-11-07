@@ -1,3 +1,5 @@
+package ch02.trafficlight;
+
 import javax.swing.*;
 
 public class TrafficLightViewer {

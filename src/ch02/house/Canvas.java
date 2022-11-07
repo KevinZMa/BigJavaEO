@@ -1,3 +1,5 @@
+package ch02.house;
+
 import java.awt.*;
 import java.util.*;
 import java.util.List;

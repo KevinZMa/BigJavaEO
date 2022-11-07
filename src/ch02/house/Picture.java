@@ -1,3 +1,5 @@
+package ch02.house;
+
 /**
  * This class represents a simple picture containing two houses.
  */

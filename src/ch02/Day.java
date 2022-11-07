@@ -1,6 +1,8 @@
+package ch02;
+
 /**
-   A Day object represents a day in the Julian/Gregorian calendar.
-*/
+ * A Day object represents a day in the Julian/Gregorian calendar.
+ */
 import java.util.GregorianCalendar;
 
 public class Day {

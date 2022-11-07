@@ -1,3 +1,5 @@
+package ch02;
+
 /**
  * P2.8 Using the Day class of Worked Example 2.1, write a program that
  * generates a Day object representing February 28 of this year, and three more

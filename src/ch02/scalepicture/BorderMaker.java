@@ -1,3 +1,5 @@
+package ch02.scalepicture;
+
 public class BorderMaker {
 
     public static void main(String[] args) {

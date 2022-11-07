@@ -1,3 +1,5 @@
+package ch01;
+
 public class FirstTenProduct {
 
     public static void main(String[] args) {

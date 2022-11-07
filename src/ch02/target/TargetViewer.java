@@ -1,3 +1,5 @@
+package ch02.target;
+
 import javax.swing.*;
 
 public class TargetViewer {
