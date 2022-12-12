@@ -1,4 +1,4 @@
-package ch02.linedistance;
+package ch02.line_distance;
 
 import javax.swing.*;
 

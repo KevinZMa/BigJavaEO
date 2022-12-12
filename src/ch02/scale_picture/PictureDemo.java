@@ -1,4 +1,4 @@
-package ch02.scalepicture;
+package ch02.scale_picture;
 
 public class PictureDemo {
 

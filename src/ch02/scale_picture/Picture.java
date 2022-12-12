@@ -1,6 +1,6 @@
 //OUT canvas.png
 
-package ch02.scalepicture;
+package ch02.scale_picture;
 
 import java.awt.Color;
 import java.awt.Dimension;

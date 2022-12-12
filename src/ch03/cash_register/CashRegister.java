@@ -1,4 +1,4 @@
-package ch03.cashregister;
+package ch03.cash_register;
 
 /**
  * A cash register totals up sales and computes change due.

@@ -1,4 +1,4 @@
-package ch02.scalepicture;
+package ch02.scale_picture;
 
 /**
  * E2.17 Using the Picture class of Worked Example 2.2, write a HalfSizePicture program that loads a picture and shows it at half the original size, centered in the window.

@@ -1,4 +1,4 @@
-package ch02.linedistance;
+package ch02.line_distance;
 
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;

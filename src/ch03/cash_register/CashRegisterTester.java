@@ -1,4 +1,4 @@
-package ch03.cashregister;
+package ch03.cash_register;
 
 /**
  * A class to test the CashRegister class.

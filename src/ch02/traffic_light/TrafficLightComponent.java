@@ -1,4 +1,4 @@
-package ch02.trafficlight;
+package ch02.traffic_light;
 
 import java.awt.Color;
 import java.awt.Graphics;
