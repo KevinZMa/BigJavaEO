@@ -12,7 +12,7 @@ Produce this drawing:
 
 ![image of the target](./target/target.png)
 
-### E2.17 & E2.18 - [`scalePicture/`](./scalePicture/)
+### E2.17 & E2.18 - [`scale_picture/`](./scale_picture/)
 
 Using the `Picture` class of Worked Example 2.2, write a `HalfSizePicture` program that loads a picture and shows it at half the original size, centered in the window.
 
@@ -44,13 +44,13 @@ Your task is to write a program that prints:
 -   The date and weekday of "Programmer's day" in the current year; that is, the 256th day of the year. (The number 256, or 28, is useful for some programming tasks.)
 -   The date and weekday of the date that is 10,000 days earlier than today.
 
-### P2.11 & P2.12 - [`lineDistance/`](./lineDistance/)
+### P2.11 & P2.12 - [`line_distance/`](./line_distance/)
 
 Write a program `LineDistanceTester` that constructs a line joining the points (100, 100) and (200, 200), then constructs points (100, 200), (150, 150), and (250, 50). Print the distance from the line to each of the three points, using the `ptSegDist` method of the `Line2D` class. Also print the expected values. (Draw a sketch on graph paper to find what values you expect.)
 
 Repeat P2.11, but now write a graphical application that shows the line and the points. Draw each point as a tiny circle. Use the `drawString` method to draw each distance next to the point.
 
-### P2.15 - [`trafficLight/`](./trafficLight/)
+### P2.15 - [`traffic_light/`](./traffic_light/)
 
 Write a graphical program that draws a traffic light.
 
