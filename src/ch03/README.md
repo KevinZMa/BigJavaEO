@@ -1,10 +1,20 @@
 # Chapter 3: Implementing Classes
 
-### Section 3.5 - [`cashregister/`](./cashregister/)
+### Section 3.5 - [`cash_register/`](./cash_register/)
 
 **Problem Solving: Tracing Objects**
 
 The `CashRegister` class totals up sales and computes change due. 
+
+### IR 3.3 (all) - [`suburban_scene/`](./suburban_scene/)
+
+Complete the `TrafficLight` class to draw a traffic light. Modify the `TrafficLight` class so that the width of the rectangle can be specified in the constructor. The gap between the circles should be 20 percent of the width.
+
+![resulting traffic light](./suburban_scene/traffic_light.png)
+
+Using the `Car` class from the textbook and your `TrafficLight` class, draw the following scene:
+
+![suburban scene](./suburban_scene/suburban_scene.png)
 
 ### E3.1 - [`Counter.java`](./Counter.java) ([`undo()`](./Counter.java#42))
 
