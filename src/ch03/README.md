@@ -47,3 +47,7 @@ A microwave control panel has four buttons: one for increasing the time by 30 se
 ### P3.6 & 3.7 - [`Person.java`](./Person.java)
 
 A Person has a name (just a first name for simplicity) and friends. Store the names of the friends in a string, separated by spaces. Provide a constructor that constructs a person with a given name and no friends.
+
+### P3.8 - [`Student.java`](./Student.java)
+
+Implement a class `Student`. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods `getName()`, `addQuiz(int score)`, `getTotalScore()`, and `getAverageScore()`. To compute the average, you also need to store the number of quizzes that the student took.
