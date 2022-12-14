@@ -4,7 +4,7 @@
 
 **Problem Solving: Tracing Objects**
 
-The `CashRegister` class totals up sales and computes change due. 
+The `CashRegister` class totals up sales and computes change due.
 
 ### IR 3.3 (all) - [`suburban_scene/`](./suburban_scene/)
 
@@ -23,6 +23,14 @@ Add a button to the tally counter in Section 3.1 that allows an operator to undo
 ### E3.2 - [`Counter.java`](./Counter.java) ([`setLimit()`](./Counter.java#24))
 
 Simulate a tally counter that can be used to admit a limited number of people. If the click button is clicked more often than the limit, it has no effect.
+
+### P3.1 - [`cash_register/`](./cash_register/)
+
+Enhance the `CashRegister` class so that it counts the purchased items. Provide a [`getItemCount()`](./cash_register/CashRegister.java#79) method that returns the count.
+
+### P3.2 - [`cash_register/`](./cash_register/)
+
+Support computing sales tax in the `CashRegister` class. The tax rate should be supplied when constructing a `CashRegister` object. Add [`recordTaxablePurchase()`](./cash_register/CashRegister.java#37) and [`getTotalTax()`](./cash_register/CashRegister.java#71) methods. (Amounts added with `recordPurchase` are not taxable.) The `giveChange` method should correctly reflect the sales tax that is charged on taxable items.
 
 ### P3.3 - [`Balloon.java`](./Balloon.java)
 

@@ -11,11 +11,13 @@ public class CashRegisterTester {
 
         register.recordPurchase(30);
         register.recordTaxablePurchase(20);
+
         register.receivePayment(60);
 
-        double change = register.giveChange();
+        System.out.println(register.getItemCount());
+        System.out.println("Expected: 2");
 
-        System.out.println(change);
+        System.out.println(register.giveChange());
         System.out.println("Expected: 8.2");
     }
 }

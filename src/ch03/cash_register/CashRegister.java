@@ -9,6 +9,7 @@ public class CashRegister {
     private double purchase;
     private double taxablePurchase;
     private double payment;
+    private int itemCount;
 
     /**
      * Constructs a cash register with no money in it.
@@ -26,15 +27,17 @@ public class CashRegister {
      */
     public void recordPurchase(double amount) {
         purchase = purchase + amount;
+        itemCount++;
     }
 
     /**
-     * Records the sale of a taxable item.
+     * P3.2 Records the sale of a taxable item.
      * @param amount the price of the item
      */
     public void recordTaxablePurchase(double amount) {
         purchase = purchase + amount;
         taxablePurchase = taxablePurchase + amount;
+        itemCount++;
     }
 
     /**
@@ -62,11 +65,19 @@ public class CashRegister {
     }
 
     /**
-     * Processes the sales tax due.
-     * @return the sales tax due
+     * Processes the total amount of sales tax due.
+     * @return the amount of tax due
      */
-    public double getSalesTax() {
+    public double getTotalTax() {
         return taxablePurchase * taxRate / 100;
+    }
+
+    /**
+     * P3.1 Gets the amount of items purchased.
+     * @return amount of items purchased
+     */
+    public int getItemCount() {
+        return itemCount;
     }
 
     /**
@@ -74,10 +85,11 @@ public class CashRegister {
      * @return the change due to the customer
      */
     public double giveChange() {
-        double change = payment - purchase - getSalesTax();
+        double change = payment - purchase - getTotalTax();
         purchase = 0;
         taxablePurchase = 0;
         payment = 0;
+        itemCount = 0;
         return change;
     }
 }
