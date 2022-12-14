@@ -43,3 +43,7 @@ Most countries (with the exception of Canada, Colombia, the Dominican Republic, 
 ### P3.5 - [`Microwave.java`](./Microwave.java)
 
 A microwave control panel has four buttons: one for increasing the time by 30 seconds, one for switching between power levels 1 and 2, a reset button, and a start button. Implement a class that simulates the microwave, with a method for each button. The method for the start button should print a message "Cooking for ... seconds at level ...".
+
+### P3.6 & 3.7 - [`Person.java`](./Person.java)
+
+A Person has a name (just a first name for simplicity) and friends. Store the names of the friends in a string, separated by spaces. Provide a constructor that constructs a person with a given name and no friends.
