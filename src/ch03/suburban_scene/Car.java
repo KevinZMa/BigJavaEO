@@ -11,12 +11,13 @@ import java.awt.geom.Point2D;
  * A car shape that can be positioned anywhere on the screen.
  */
 public class Car {
+
     private int xLeft;
     private int yTop;
 
     /**
      * Constructs a car with a given top left corner.
-     * 
+     *
      * @param x the x coordinate of the top left corner
      * @param y the y coordinate of the top left corner
      */
@@ -27,15 +28,25 @@ public class Car {
 
     /**
      * Draws the car.
-     * 
+     *
      * @param g2 the graphics context
      */
     public void draw(Graphics2D g2) {
         g2.setColor(Color.BLACK); // reset color to black
 
         Rectangle body = new Rectangle(xLeft, yTop + 10, 60, 10);
-        Ellipse2D.Double frontTire = new Ellipse2D.Double(xLeft + 10, yTop + 20, 10, 10);
-        Ellipse2D.Double rearTire = new Ellipse2D.Double(xLeft + 40, yTop + 20, 10, 10);
+        Ellipse2D.Double frontTire = new Ellipse2D.Double(
+            xLeft + 10,
+            yTop + 20,
+            10,
+            10
+        );
+        Ellipse2D.Double rearTire = new Ellipse2D.Double(
+            xLeft + 40,
+            yTop + 20,
+            10,
+            10
+        );
 
         // The bottom of the front windshield
         Point2D.Double r1 = new Point2D.Double(xLeft + 10, yTop + 10);

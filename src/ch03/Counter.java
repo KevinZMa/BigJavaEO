@@ -4,12 +4,13 @@ package ch03;
  * This class models a tally counter.
  */
 public class Counter {
+
     private int value;
     private int clickLimit;
 
     /**
      * Gets the current value of this counter.
-     * 
+     *
      * @return the current value
      */
     public int getValue() {
