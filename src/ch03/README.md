@@ -16,21 +16,21 @@ Using the `Car` class from the textbook and your `TrafficLight` class, draw the 
 
 ![suburban scene](./suburban_scene/suburban_scene.png)
 
-### E3.1 - [`Counter.java`](./Counter.java) ([`undo()`](./Counter.java#42))
+### E3.1 - [`Counter.java`](./Counter.java) ([`undo()`](./Counter.java#L43))
 
 Add a button to the tally counter in Section 3.1 that allows an operator to undo an accidental button click. As an added precaution, make sure that clicking the undo button more often than the click button has no effect.
 
-### E3.2 - [`Counter.java`](./Counter.java) ([`setLimit()`](./Counter.java#24))
+### E3.2 - [`Counter.java`](./Counter.java) ([`setLimit()`](./Counter.java#L25))
 
 Simulate a tally counter that can be used to admit a limited number of people. If the click button is clicked more often than the limit, it has no effect.
 
 ### P3.1 - [`cash_register/`](./cash_register/)
 
-Enhance the `CashRegister` class so that it counts the purchased items. Provide a [`getItemCount()`](./cash_register/CashRegister.java#79) method that returns the count.
+Enhance the `CashRegister` class so that it counts the purchased items. Provide a [`getItemCount()`](./cash_register/CashRegister.java#L108) method that returns the count.
 
 ### P3.2 - [`cash_register/`](./cash_register/)
 
-Support computing sales tax in the `CashRegister` class. The tax rate should be supplied when constructing a `CashRegister` object. Add [`recordTaxablePurchase()`](./cash_register/CashRegister.java#37) and [`getTotalTax()`](./cash_register/CashRegister.java#71) methods. (Amounts added with `recordPurchase` are not taxable.) The `giveChange` method should correctly reflect the sales tax that is charged on taxable items.
+Support computing sales tax in the `CashRegister` class. The tax rate should be supplied when constructing a `CashRegister` object. Add [`recordTaxablePurchase()`](./cash_register/CashRegister.java#L59) and [`getTotalTax()`](./cash_register/CashRegister.java#L99) methods. (Amounts added with `recordPurchase` are not taxable.) The `giveChange` method should correctly reflect the sales tax that is charged on taxable items.
 
 ### P3.3 - [`Balloon.java`](./Balloon.java)
 
@@ -51,3 +51,7 @@ A Person has a name (just a first name for simplicity) and friends. Store the na
 ### P3.8 - [`Student.java`](./Student.java)
 
 Implement a class `Student`. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods `getName()`, `addQuiz(int score)`, `getTotalScore()`, and `getAverageScore()`. To compute the average, you also need to store the number of quizzes that the student took.
+
+### P3.10 [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L118))
+
+Add a method `printReceipt` to the `CashRegister` class. The method should print the prices of all purchased items and the total amount due.
