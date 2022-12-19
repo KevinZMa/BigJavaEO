@@ -112,7 +112,7 @@ public class CashRegister {
     }
 
     /**
-     * P3.10 Returns the receipt of the prices of all purchased items and the total
+     * E3.10 Returns the receipt of the prices of all purchased items and the total
      * amount due.
      *
      * @return the receipt
@@ -150,7 +150,7 @@ public class CashRegister {
     }
 
     /**
-     * P3.11 Get the number of sales.
+     * E3.11 Get the number of sales.
      * @return the number of sales
      */
     public int getSalesCount() {
@@ -158,7 +158,7 @@ public class CashRegister {
     }
 
     /**
-     * P3.11 Get the total amount of money in sales.
+     * E3.11 Get the total amount of money in sales.
      * @return the amount of money in sales
      */
     public double getSalesTotal() {
@@ -166,7 +166,7 @@ public class CashRegister {
     }
 
     /**
-     * P3.11 Reset any counters and totals so that the next day's sales start from zero.
+     * E3.11 Reset any counters and totals so that the next day's sales start from zero.
      */
     public void reset() {
         salesCount = 0;

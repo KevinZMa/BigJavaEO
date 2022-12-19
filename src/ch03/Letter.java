@@ -1,5 +1,8 @@
 package ch03;
 
+/**
+ * E3.15 A class for authoring a simple letter.
+ */
 public class Letter {
     private String from;
     private String to;

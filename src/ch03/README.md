@@ -28,6 +28,10 @@ Add a button to the tally counter in Section 3.1 that allows an operator to undo
 
 Simulate a tally counter that can be used to admit a limited number of people. If the click button is clicked more often than the limit, it has no effect.
 
+### E3.3: [`RangeInput.java`](./RangeInput.java)
+
+Write a class `RangeInput` that allows users to enter a value within a range of values that is provided in the constructor. An example would be a temperature control switch in a car that allows inputs between 60 and 80 degrees Fahrenheit. The input control has "up" and "down" buttons. Provide `up` and `down` methods to change the current value. The initial value is the midpoint between the limits. As with the preceding exercises, use `Math.min` and `Math.max` to limit the value. Write a sample program that simulates clicks on controls for the passenger and driver seats.
+
 ### E3.10: [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L120))
 
 Add a method `printReceipt` to the `CashRegister` class. The method should print the prices of all purchased items and the total amount due.
