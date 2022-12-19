@@ -30,7 +30,7 @@ Enhance the `CashRegister` class so that it counts the purchased items. Provide 
 
 ### P3.2 - [`cash_register/`](./cash_register/)
 
-Support computing sales tax in the `CashRegister` class. The tax rate should be supplied when constructing a `CashRegister` object. Add [`recordTaxablePurchase()`](./cash_register/CashRegister.java#L59) and [`getTotalTax()`](./cash_register/CashRegister.java#L99) methods. (Amounts added with `recordPurchase` are not taxable.) The `giveChange` method should correctly reflect the sales tax that is charged on taxable items.
+Support computing sales tax in the `CashRegister` class. The tax rate should be supplied when constructing a `CashRegister` object. Add [`recordTaxablePurchase()`](./cash_register/CashRegister.java#L61) and [`getTotalTax()`](./cash_register/CashRegister.java#L101) methods. (Amounts added with `recordPurchase` are not taxable.) The `giveChange` method should correctly reflect the sales tax that is charged on taxable items.
 
 ### P3.3 - [`Balloon.java`](./Balloon.java)
 
@@ -52,6 +52,10 @@ A Person has a name (just a first name for simplicity) and friends. Store the na
 
 Implement a class `Student`. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods `getName()`, `addQuiz(int score)`, `getTotalScore()`, and `getAverageScore()`. To compute the average, you also need to store the number of quizzes that the student took.
 
-### P3.10 [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L118))
+### P3.10 [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L120))
 
 Add a method `printReceipt` to the `CashRegister` class. The method should print the prices of all purchased items and the total amount due.
+
+### P3.11 [`cash_register/`](./cash_register/)
+
+After closing time, the store manager would like to know how much business was transacted during the day. Modify the `CashRegister` class to enable this functionality. Supply methods ([`getSalesTotal`](./cash_register/CashRegister.java#L164)) and ([`getSalesCount`](./cash_register/CashRegister.java#L156)) to get the total amount of all sales and the number of sales. Supply a method ([`reset`](./cash_register/CashRegister.java#L171)) that resets any counters and totals so that the next day’s sales start from zero.

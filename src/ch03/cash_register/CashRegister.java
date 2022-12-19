@@ -5,13 +5,15 @@ package ch03.cash_register;
  */
 public class CashRegister {
 
+    private final String CURRENCY_SYMBOL = "$";
     private double taxRate;
     private double purchase;
     private double taxablePurchase;
     private double payment;
     private int itemCount;
     private String receipt = "";
-    private final String CURRENCY_SYMBOL = "$";
+    private int salesCount;
+    private double salesTotal;
 
     /**
      * Constructs a cash register with no money in it and no tax rate.
@@ -135,10 +137,39 @@ public class CashRegister {
      */
     public double giveChange() {
         double change = payment - getPurchase() - getTotalTax();
+        
+        salesCount++;
+        salesTotal += getPurchase() + getTotalTax();
+
         purchase = 0;
         taxablePurchase = 0;
         payment = 0;
         itemCount = 0;
+
         return change;
+    }
+
+    /**
+     * P3.11 Get the number of sales.
+     * @return the number of sales
+     */
+    public int getSalesCount() {
+        return salesCount;
+    }
+
+    /**
+     * P3.11 Get the total amount of money in sales.
+     * @return the amount of money in sales
+     */
+    public double getSalesTotal() {
+        return salesTotal;
+    }
+
+    /**
+     * P3.11 Reset any counters and totals so that the next day's sales start from zero.
+     */
+    public void reset() {
+        salesCount = 0;
+        salesTotal = 0;
     }
 }
