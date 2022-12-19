@@ -59,3 +59,55 @@ Add a method `printReceipt` to the `CashRegister` class. The method should print
 ### P3.11 [`cash_register/`](./cash_register/)
 
 After closing time, the store manager would like to know how much business was transacted during the day. Modify the `CashRegister` class to enable this functionality. Supply methods ([`getSalesTotal`](./cash_register/CashRegister.java#L164)) and ([`getSalesCount`](./cash_register/CashRegister.java#L156)) to get the total amount of all sales and the number of sales. Supply a method ([`reset`](./cash_register/CashRegister.java#L171)) that resets any counters and totals so that the next day’s sales start from zero.
+
+### P3.15 [`Letter.java`](./Letter.java)
+
+Provide a class for authoring a simple letter. In the constructor, supply the names of the sender and the recipient:
+
+```java
+public Letter(String from, String to)
+```
+
+Supply a method
+
+```java
+public void addLine(String line)
+```
+
+to add a line of text to the body of the letter.
+
+Supply a method
+
+```java
+public String getText()
+```
+
+that returns the entire text of the letter. The text has the form:
+
+```
+Dear recipient name:
+blank line 
+first line of the body
+second line of the body
+. . .
+last line of the body
+blank line 
+Sincerely, 
+blank line
+sender name 
+```
+
+Also supply a class [`LetterPrinter`](./LetterPrinter.java) that prints this letter.
+
+```
+Dear John:
+   
+I am sorry we must part.
+I wish you all the best.
+   
+Sincerely,
+   
+Mary 
+```
+
+Construct an object of the `Letter` class and call `addLine` twice.
