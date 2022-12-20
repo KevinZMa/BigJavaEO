@@ -32,7 +32,7 @@ Simulate a tally counter that can be used to admit a limited number of people. I
 
 Write a class `RangeInput` that allows users to enter a value within a range of values that is provided in the constructor. An example would be a temperature control switch in a car that allows inputs between 60 and 80 degrees Fahrenheit. The input control has "up" and "down" buttons. Provide `up` and `down` methods to change the current value. The initial value is the midpoint between the limits. As with the preceding exercises, use `Math.min` and `Math.max` to limit the value. Write a sample program that simulates clicks on controls for the passenger and driver seats.
 
-### E3.4
+### E3.4: [`Circuit.java`](./Circuit.java)
 
 Simulate a circuit for controlling a hallway light that has switches at both ends of the hallway. Each switch can be up or down, and the light can be on or off. Toggling either switch turns the lamp on or off. Provide methods
 
@@ -43,6 +43,10 @@ public int getLampState() // 0 for off, 1 for on
 public void toggleFirstSwitch()
 public void toggleSecondSwitch()
 ```
+
+### E3.5: [`CircuitTester.java`](./CircuitTester.java)
+
+Write a `CircuitTester` class that tests all switch combinations in `Circuit`, printing out actual and expected states for the switches and lamps.
 
 ### E3.10: [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L120))
 
