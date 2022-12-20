@@ -5,6 +5,7 @@ package ch03;
  * incrementing or decrementing by 1.
  */
 public class RangeInput {
+
     private int min;
     private int max;
     private int value;

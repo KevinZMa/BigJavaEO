@@ -4,6 +4,7 @@ package ch03;
  * E3.3 Simulates clicks on controls for the passenger and driver seats.
  */
 public class TemperatureControl {
+
     private RangeInput driver;
     private RangeInput passenger;
 
@@ -38,13 +39,13 @@ public class TemperatureControl {
 
     public static void main(String[] args) {
         TemperatureControl temp = new TemperatureControl();
-        
+
         temp.driverUp();
         temp.driverUp();
         temp.driverUp();
         temp.driverUp();
         temp.driverDown();
-        
+
         System.out.println(temp.getDriver());
         System.out.println("Expected: 73");
 

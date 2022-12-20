@@ -117,7 +117,7 @@ public class CashRegister {
      *
      * @return the receipt
      */
-    public String getReceipt() {
+    public String printReceipt() {
         if (receipt.isBlank()) return "Amount Due: " + CURRENCY_SYMBOL + "0.00";
 
         String receipt = this.receipt + "\n";
@@ -137,7 +137,7 @@ public class CashRegister {
      */
     public double giveChange() {
         double change = payment - getPurchase() - getTotalTax();
-        
+
         salesCount++;
         salesTotal += getPurchase() + getTotalTax();
 

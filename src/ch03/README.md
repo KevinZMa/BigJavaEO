@@ -32,13 +32,25 @@ Simulate a tally counter that can be used to admit a limited number of people. I
 
 Write a class `RangeInput` that allows users to enter a value within a range of values that is provided in the constructor. An example would be a temperature control switch in a car that allows inputs between 60 and 80 degrees Fahrenheit. The input control has "up" and "down" buttons. Provide `up` and `down` methods to change the current value. The initial value is the midpoint between the limits. As with the preceding exercises, use `Math.min` and `Math.max` to limit the value. Write a sample program that simulates clicks on controls for the passenger and driver seats.
 
+### E3.4
+
+Simulate a circuit for controlling a hallway light that has switches at both ends of the hallway. Each switch can be up or down, and the light can be on or off. Toggling either switch turns the lamp on or off. Provide methods
+
+```java
+public int getFirstSwitchState() // 0 for down, 1 for up
+public int getSecondSwitchState()
+public int getLampState() // 0 for off, 1 for on
+public void toggleFirstSwitch()
+public void toggleSecondSwitch()
+```
+
 ### E3.10: [`cash_register/`](./cash_register/) - ([`printReceipt()`](./cash_register/CashRegister.java#L120))
 
 Add a method `printReceipt` to the `CashRegister` class. The method should print the prices of all purchased items and the total amount due.
 
 ### E3.11: [`cash_register/`](./cash_register/)
 
-After closing time, the store manager would like to know how much business was transacted during the day. Modify the `CashRegister` class to enable this functionality. Supply methods ([`getSalesTotal`](./cash_register/CashRegister.java#L164)) and ([`getSalesCount`](./cash_register/CashRegister.java#L156)) to get the total amount of all sales and the number of sales. Supply a method ([`reset`](./cash_register/CashRegister.java#L171)) that resets any counters and totals so that the next day’s sales start from zero.
+After closing time, the store manager would like to know how much business was transacted during the day. Modify the `CashRegister` class to enable this functionality. Supply methods [`getSalesTotal()`](./cash_register/CashRegister.java#L164) and [`getSalesCount()`](./cash_register/CashRegister.java#L156) to get the total amount of all sales and the number of sales. Supply a method [`reset()`](./cash_register/CashRegister.java#L171) that resets any counters and totals so that the next day’s sales start from zero.
 
 ### E3.15: [`Letter.java`](./Letter.java)
 
@@ -66,28 +78,28 @@ that returns the entire text of the letter. The text has the form:
 
 ```
 Dear recipient name:
-blank line 
+blank line
 first line of the body
 second line of the body
 . . .
 last line of the body
-blank line 
-Sincerely, 
 blank line
-sender name 
+Sincerely,
+blank line
+sender name
 ```
 
 Also supply a class [`LetterPrinter`](./LetterPrinter.java) that prints this letter.
 
 ```
 Dear John:
-   
+
 I am sorry we must part.
 I wish you all the best.
-   
+
 Sincerely,
-   
-Mary 
+
+Mary
 ```
 
 Construct an object of the `Letter` class and call `addLine` twice.
@@ -139,4 +151,4 @@ public int getFriendCount()
 
 ### P3.8: [`Student.java`](./Student.java)
 
-Implement a class `Student`. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods `getName()`, `addQuiz(int score)`, `getTotalScore()`, and `getAverageScore()`. To compute the average, you also need to store the *number of quizzes* that the student took.
+Implement a class `Student`. For the purpose of this exercise, a student has a name and a total quiz score. Supply an appropriate constructor and methods `getName()`, `addQuiz(int score)`, `getTotalScore()`, and `getAverageScore()`. To compute the average, you also need to store the _number of quizzes_ that the student took.
