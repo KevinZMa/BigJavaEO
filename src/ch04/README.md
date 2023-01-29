@@ -46,6 +46,40 @@ Minimum:         20
 
 Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
 
+### E4.6 - [`CircularDimensions.java`](./CircularDimensions.java)
+
+Write a program that prompts the user for a radius and then prints:
+
+-   The area and circumference of a circle with that radius
+-   The volume and surface area of a sphere with that radius
+
+### E4.7 - [`RectangleDimensions.java`](./RectangleDimensions.java)
+
+Write a program that asks the user for the lengths of a rectangle's sides. Then print:
+
+-   The area and perimeter of the rectangle
+-   The length of the diagonal (use the Pythagorean theorem)
+
+### E4.9 - [`Gas.java`](./Gas.java)
+
+Write a program that asks the user to input:
+
+-   The number of gallons of gas in the tank
+-   The fuel efficiency in miles per gallon
+-   The price of gas per gallon
+
+Then print the cost per 100 miles and how far the car can go with the gas in the tank.
+
+#### Cost per mile:
+
+$$
+100\text{ miles}\cdot\frac{\text{gallons}}{{\tt efficiency}\text{ miles}}\cdot\frac{\tt price}{\text{gallons}}
+$$
+
+### E4.11 - [`FilePath.java`](./FilePath.java)
+
+*File names and extensions.* Write a program that prompts the user for the drive letter (`C`), the path (`\Windows\System`), the file name (`Readme`), and the extension (`txt`). Then print the complete file name `C:\Windows\System\Readme.txt`. (If you use UNIX or a Macintosh, skip the drive name and use `/` instead of `\` to separate directories.)
+
 ## Extras
 
 ### [`Balance.java`](./Balance.java)
