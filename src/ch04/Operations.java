@@ -14,6 +14,7 @@ import java.util.Scanner;
  * The minimum (the smaller of the two)
  * 
  * Enhance the output so the numbers are properly aligned.
+ * 
  * @bj.exercise E4.3, E4.4
  */
 public class Operations {

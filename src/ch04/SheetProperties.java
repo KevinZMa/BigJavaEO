@@ -8,6 +8,7 @@ package ch04;
  * The width and height
  * The perimeter
  * The length of the diagonal
+ *
  * @bj.exercise E4.1
  */
 public class SheetProperties {
