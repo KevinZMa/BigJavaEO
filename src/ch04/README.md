@@ -70,7 +70,7 @@ Write a program that asks the user to input:
 
 Then print the cost per 100 miles and how far the car can go with the gas in the tank.
 
-#### Cost per mile:
+#### Cost per 100 miles:
 
 $$
 100\text{ miles}\cdot\frac{\text{gallons}}{{\tt efficiency}\text{ miles}}\cdot\frac{\tt price}{\text{gallons}}
@@ -79,6 +79,20 @@ $$
 ### E4.11 - [`FilePath.java`](./FilePath.java)
 
 _File names and extensions._ Write a program that prompts the user for the drive letter (`C`), the path (`\Windows\System`), the file name (`Readme`), and the extension (`txt`). Then print the complete file name `C:\Windows\System\Readme.txt`. (If you use UNIX or a Macintosh, skip the drive name and use `/` instead of `\` to separate directories.)
+
+## Programming Projects
+
+### P4.1 - [`HybridCarDecider.java`](./HybridCarDecider.java)
+
+Write a program that helps a person decide whether to buy a hybrid car. Your program’s inputs should be:
+
+-   The cost of a new car
+-   The estimated miles driven per year
+-   The estimated gas price
+-   The efficiency in miles per gallon
+-   The estimated resale value after 5 years
+
+Compute the total cost of owning the car for five years. (For simplicity, we will not take the cost of financing into account.) Obtain realistic prices for a new and used hybrid and a comparable car from the Web. Run your program twice, using today’s gas price and 15,000 miles per year. Include pseudocode and the program runs with your assignment.
 
 ## Extras
 
