@@ -7,10 +7,11 @@ import java.util.Scanner;
  * compute the date, you can use the algorithm invented by the mathematician
  * Carl Friedrich Gauss in 1800 (see README). Write a program that prompts the
  * user for a year and prints out the month and day of Easter Sunday.
- * 
+ *
  * @bj.project P4.2
  */
 public class EasterSunday {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -20,7 +21,7 @@ public class EasterSunday {
         in.close();
 
         int a = y % 19;
-        
+
         int b = y / 100;
         int c = y % 100;
 
