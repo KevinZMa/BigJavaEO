@@ -2,6 +2,12 @@ package ch05;
 
 import java.util.Scanner;
 
+/**
+ * Write a program that prompts the user for a month and day and then prints the
+ * season, as determined by the algorithm (see README).
+ *
+ * @bj.project P5.1
+ */
 public class Season {
 
     public static void main(String[] args) {

@@ -2,6 +2,12 @@ package ch05;
 
 import java.util.Scanner;
 
+/**
+ * Write a program that prompts for the day and month of the user's birthday and
+ * then prints a horoscope.
+ *
+ * @bj.project P5.2
+ */
 public class Horoscope {
 
     public static void main(String[] args) {
