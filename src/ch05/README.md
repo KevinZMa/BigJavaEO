@@ -57,3 +57,21 @@ Each fortune should contain the name of the astrological sign. (You will find th
 > The start/end dates may vary by 1-2 days.
 
 </details>
+
+### P5.13: [`PIN.java`](./PIN.java)
+
+When you use an automated teller machine (ATM) with your bank card, you need to use a personal identification number (PIN) to access your account. If a user fails more than three times when entering the PIN, the machine will block the card. Assume that the user’s PIN is "1234" and write a program that asks the user for the PIN no more than three times, and does the following:
+
+-   If the user enters the right number, print a message saying, "Your PIN is correct", and end the program.
+-   If the user enters a wrong number, print a message saying, "Your PIN is incorrect" and, if you have asked for the PIN less than three times, ask for it again.
+-   If the user enters a wrong number three times, print a message saying "Your bank card is blocked" and end the program.
+
+### P5.14: [`Tip.java`](./Tip.java)
+
+Calculating the tip when you go to a restaurant is not difficult, but your restaurant wants to suggest a tip according to the service diners receive. Write a program that calculates a tip according to the diner’s satisfaction as follows:
+
+-   Ask for the diners’ satisfaction level using these ratings: 1 = Totally satisfied, 2 = Satisfied, 3 = Dissatisfied.
+-   If the diner is totally satisfied, calculate a 20 percent tip.
+-   If the diner is satisfied, calculate a 15 percent tip.
+-   If the diner is dissatisfied, calculate a 10 percent tip.
+-   Report the satisfaction level and tip in dollars and cents.
