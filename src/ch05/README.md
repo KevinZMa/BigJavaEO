@@ -1,5 +1,27 @@
 # Chapter 5: Decisions
 
+## Practice Exercises
+
+### E5.1: [`IntegerType.java`](./IntegerType.java)
+
+Write a program that reads an integer and prints whether it is negative, zero, or positive.
+
+### E5.2: [`DoubleType.java`](./DoubleType.java)
+
+Write a program that reads a floating-point number and prints "zero" if the number is zero. Otherwise, print "positive" or "negative". Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.
+
+### E5.3: [`Digits.java`](./Digits.java)
+
+Write a program that reads an integer and prints how many digits the number has, by checking whether the number is ≥ 10, ≥ 100, and so on. (Assume that all integers are less than ten billion.) If the number is negative, first multiply it with –1.
+
+### E5.4: [`FirstLastComparison.java`](./FirstLastComparison.java)
+
+Write a program that reads a string, compares the first and last letter, and and prints "first and last letter same" or "first and last letter different".
+
+### E5.5: [`HalfComparison.java`](./HalfComparison.java)
+
+Write a program that reads a word, compares the first and second half of the word, and prints "first and second half same" or "first and second half different". If the length of the word is odd, ignore the middle letter.
+
 ## Programming Projects
 
 ### P5.1: [`Season.java`](./Season.java)
