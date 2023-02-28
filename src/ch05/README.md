@@ -80,6 +80,10 @@ Each fortune should contain the name of the astrological sign. (You will find th
 
 </details>
 
+### P5.5: [`UnitConversion.java`](./UnitConversion.java)
+
+Write a unit conversion program that asks the users from which unit they want to convert (fl. oz, gal, oz, lb, in, ft, mi) and to which unit they want to convert (ml, l, g, kg, mm, cm, m, km). Reject incompatible conversions (such as gal → km). Ask for the value to be converted, then display the result.
+
 ### P5.13: [`PIN.java`](./PIN.java)
 
 When you use an automated teller machine (ATM) with your bank card, you need to use a personal identification number (PIN) to access your account. If a user fails more than three times when entering the PIN, the machine will block the card. Assume that the user’s PIN is "1234" and write a program that asks the user for the PIN no more than three times, and does the following:
