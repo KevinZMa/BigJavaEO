@@ -7,10 +7,11 @@ import java.util.Scanner;
  * to convert (fl. oz, gal, oz, lb, in, ft, mi) and to which unit they want to
  * convert (ml, l, g, kg, mm, cm, m, km). Reject incompatible conversions (such
  * as gal → km). Ask for the value to be converted, then display the result.
- * 
+ *
  * @bj.project P5.5
  */
 public class UnitConversion {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -97,7 +98,13 @@ public class UnitConversion {
             rejectIncompatible();
         }
 
-        System.out.printf("%.2f %s = %.2f %s%n", value, fromUnit, result, toUnit);
+        System.out.printf(
+            "%.2f %s = %.2f %s%n",
+            value,
+            fromUnit,
+            result,
+            toUnit
+        );
 
         in.close();
     }
