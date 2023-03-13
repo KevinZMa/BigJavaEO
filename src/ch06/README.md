@@ -41,3 +41,35 @@ Write programs that read a line of input as a string and print
 -   The number of vowels in the string.
 
 -   The positions of all vowels in the string.
+
+## Programming Projects
+
+### P6.1: [`CCNumber.java`](./CCNumber.java)
+
+Enhance Worked Example 6.1 to check that the credit card number is valid. A valid credit card number will yield a result divisible by 10 when you:
+
+Form the sum of all digits. Add to that sum every second digit, starting with the second digit from the right. Then add the number of digits in the second step that are greater than four. The result should be divisible by 10.
+
+For example, consider the number [**4**](#)0[**1**](#)2 [**8**](#)8[**8**](#)8 [**8**](#)8[**8**](#)8 [**1**](#)8[**8**](#)1. The sum of all digits is 89. The sum of the colored digits is 46. There are five colored digits larger than four, so the result is 140. 140 is divisible by 10 so the card number is valid.
+
+### P6.2: [`Fibonacci.java`](./Fibonacci.java)
+
+The _Fibonacci numbers_ are defined by the sequence
+
+$f_1 = 1$
+
+$f_2 = 1$
+
+$f_n = f_{n–1} + f_{n–2}$
+
+Reformulate that as
+
+```
+fold1 = 1;
+fold2 = 1;
+fnew = fold1 + fold2;
+```
+
+After that, discard `fold2`, which is no longer needed, and set `fold2` to `fold1` and `fold1` to `fnew`. Repeat an appropriate number of times.
+
+Implement a program that prompts the user for an integer _n_ and prints the *n*th Fibonacci number, using the above algorithm.
