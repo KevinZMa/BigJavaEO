@@ -73,3 +73,35 @@ fnew = fold1 + fold2;
 After that, discard `fold2`, which is no longer needed, and set `fold2` to `fold1` and `fold1` to `fnew`. Repeat an appropriate number of times.
 
 Implement a program that prompts the user for an integer _n_ and prints the *n*th Fibonacci number, using the above algorithm.
+
+### P6.3:
+
+_Factoring of integers._ Write a program that asks the user for an integer and then prints out all its factors. For example, when the user enters 150, the program should print
+
+```
+2
+3
+5
+5
+```
+
+Use a class `FactorGenerator` with a constructor `FactorGenerator(int numberToFactor)` and methods `nextFactor` and `hasMoreFactors`. Supply a class `FactorPrinter` whose `main` method reads a user input, constructs a `FactorGenerator` object, and prints the factors.
+
+### P6.4:
+
+_Prime numbers._ Write a program that prompts the user for an integer and then prints out all prime numbers up to that integer. For example, when the user enters 20, the program should print
+
+```
+2
+3
+5
+7
+11
+13
+17
+19
+```
+
+Recall that a number is a prime number if it is not divisible by any number except 1 and itself.
+
+Use a class `PrimeGenerator` with methods `nextPrime` and `isPrime`. Supply a class `PrimePrinter` whose `main` method reads a user input, constructs a `PrimeGenerator` object, and prints the primes.
