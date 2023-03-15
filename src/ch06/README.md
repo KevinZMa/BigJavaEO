@@ -74,7 +74,7 @@ After that, discard `fold2`, which is no longer needed, and set `fold2` to `fold
 
 Implement a program that prompts the user for an integer _n_ and prints the *n*th Fibonacci number, using the above algorithm.
 
-### P6.3:
+### P6.3: [`FactorPrinter.java`](./FactorPrinter.java)
 
 _Factoring of integers._ Write a program that asks the user for an integer and then prints out all its factors. For example, when the user enters 150, the program should print
 
@@ -85,9 +85,9 @@ _Factoring of integers._ Write a program that asks the user for an integer and t
 5
 ```
 
-Use a class `FactorGenerator` with a constructor `FactorGenerator(int numberToFactor)` and methods `nextFactor` and `hasMoreFactors`. Supply a class `FactorPrinter` whose `main` method reads a user input, constructs a `FactorGenerator` object, and prints the factors.
+Use a class [`FactorGenerator`](./FactorGenerator.java) with a constructor `FactorGenerator(int numberToFactor)` and methods `nextFactor` and `hasMoreFactors`. Supply a class [`FactorPrinter`](./FactorPrinter.java) whose `main` method reads a user input, constructs a [`FactorGenerator`](./FactorGenerator.java) object, and prints the factors.
 
-### P6.4:
+### P6.4: [`PrimePrinter.java`](./PrimePrinter.java)
 
 _Prime numbers._ Write a program that prompts the user for an integer and then prints out all prime numbers up to that integer. For example, when the user enters 20, the program should print
 
@@ -104,4 +104,4 @@ _Prime numbers._ Write a program that prompts the user for an integer and then p
 
 Recall that a number is a prime number if it is not divisible by any number except 1 and itself.
 
-Use a class `PrimeGenerator` with methods `nextPrime` and `isPrime`. Supply a class `PrimePrinter` whose `main` method reads a user input, constructs a `PrimeGenerator` object, and prints the primes.
+Use a class [`PrimeGenerator`](./PrimeGenerator.java) with methods `nextPrime` and `isPrime`. Supply a class [`PrimePrinter`](./PrimePrinter.java) whose `main` method reads a user input, constructs a [`PrimeGenerator`](./PrimeGenerator.java) object, and prints the primes.
