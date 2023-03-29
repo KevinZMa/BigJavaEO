@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * A class that prints prime numbers up to an inputted maximum.
- * 
+ *
  * @bj.project P6.4
  */
 public class PrimePrinter {
