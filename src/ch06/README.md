@@ -42,6 +42,57 @@ Write programs that read a line of input as a string and print
 
 -   The positions of all vowels in the string.
 
+### E6.6: [`Minimum.java`](./Minimum.java)
+
+Translate the following pseudocode for finding the minimum value from a set of inputs into a Java program.
+
+```
+Set a Boolean variable “first” to true.
+If the scanner has more numbers
+   Read the next value.
+   If first is true
+      Set the minimum to the value.
+      Set first to false.
+   Else if the value is less than the minimum
+      Set the minimum to the value.
+Print the minimum.
+```
+
+### E6.7: [`RandomPermutation.java`](./RandomPermutation.java)
+
+Translate the following pseudocode for randomly permuting the characters in a string into a Java program.
+
+```
+Read a word.
+Repeat word.length() times
+   Pick a random position i in the word, but not the last position.
+   Pick a random position j > i in the word.
+   Swap the letters at positions j and i.
+Print the word.
+```
+
+To swap the letters, construct substrings as follows:
+
+![visualization](./bjeo_06_un44_150.png)
+
+Then replace the string with
+
+```java
+first + word.charAt(j) + middle + word.charAt(i) + last
+```
+
+### E6.8: [`SeparateLine.java`](./SeparateLine.java)
+
+Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input "Harry", the program prints
+
+```
+H
+a
+r
+r
+y
+```
+
 ## Programming Projects
 
 ### P6.1: [`CCNumber.java`](./CCNumber.java)
