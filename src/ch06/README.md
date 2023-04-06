@@ -93,6 +93,75 @@ r
 y
 ```
 
+### E6.16: [`MultiplicationTable.java`](./MultiplicationTable.java)
+
+Write a program that prints a multiplication table, like this:
+
+```
+    1   2   3   4   5   6   7   8   9  10
+    2   4   6   8  10  12  14  16  18  20
+    3   6   9  12  15  18  21  24  27  30
+    . . .
+   10  20  30  40  50  60  70  80  90 100
+```
+
+### E6.17: [`Squares.java`](./Squares.java)
+
+Write a program that reads an integer and displays, using asterisks, a filled and hollow square, placed next to each other. For example, if the side length is 5, the program should display
+
+```
+***** *****
+***** *   *
+***** *   *
+***** *   *
+***** *****
+```
+
+### E6.18: [`Diamond.java`](./Diamond.java)
+
+Write a program that reads an integer and displays, using asterisks, a filled diamond of the given side length. For example, if the side length is 4, the program should display
+
+```
+    *
+   ***
+  *****
+ *******
+  *****
+   ***
+    *
+```
+
+### E6.19: [`Diamond2.java`](./Diamond2.java)
+
+Print a diamond shape, as in the preceding exercise, with the asterisks in the middle row and column omitted, like this:
+
+```
+  * *
+ ** **
+*** ***
+
+*** ***
+ ** **
+  * *
+```
+
+Your program should read the side length of each part (3 in the example above).
+
+### E6.20 [`Box.java`](./Box.java)
+
+Print an X shape in a box of a given side length, like this:
+
+```
+********
+**    **
+* *  * *
+*  **  *
+*  **  *
+* *  * *
+**    **
+********
+```
+
 ## Programming Projects
 
 ### P6.1: [`CCNumber.java`](./CCNumber.java)
